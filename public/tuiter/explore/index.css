@@ -1,44 +1,6 @@
-/* For floating left */
-.wd-float-left {
-    float: left;
-}
-
-/* For floating right */
-.wd-float-right {
-    float: right;
-}
-
-/* For ending a row of floating */
-.wd-float-done {
-    clear: both;
-}
-
-/* For 1px solid dark grey borders without a bottom border */
-.wd-border {
-    border-color: rgb(47, 51, 54);
-    border-width: 1px 1px 0px 1px;
-    border-style: solid;
-}
-
-/* Background is black */
-body {
-    background-color: black;
-}
-
-/* All content is in this div and offset from left side of screen */
-.wd-main-div {
-    margin-left: 22px;
-}
-
-/* Content that should be 16 away from the left border */
-.wd-content-offset-from-left-border {
-    padding-left: 16px;
-}
-
 /* For the header (the search bar/settings icon and row of links below) */
 .wd-header-div {
-    border-bottom-width: 4px;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 
 /* For the div containing the search bar */
@@ -100,10 +62,6 @@ body {
 .wd-suggested-tuit-div {
     padding-top: 11px;
     padding-bottom: 6px;
-
-    border-color: rgb(47, 51, 54);
-    border-width: 0px 0px 1px 0px;
-    border-style: solid;
 }
 
 /* Formatting the info text for a suggested Tuit (such as "Trending in Science") */
@@ -117,6 +75,7 @@ body {
 /* Formatting the title of a suggested Tuit */
 .wd-suggested-tuit-title-text {
     font-size: 15px;
+    font-weight: bold;
     color: white;
     margin: 0px;
     padding-bottom: 8px;
@@ -125,6 +84,7 @@ body {
 /* Formatting the author of a suggested Tuit */
 .wd-suggested-tuit-author-text {
     font-size: 13px;
+    font-weight: bold;
     color: white;
     margin: 0px 5px 0px 0px;
     padding-bottom: 5px;

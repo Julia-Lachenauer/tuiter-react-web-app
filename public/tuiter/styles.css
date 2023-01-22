@@ -1,0 +1,50 @@
+/* For floating left */
+.wd-float-left {
+    float: left;
+}
+
+/* For floating right */
+.wd-float-right {
+    float: right;
+}
+
+/* For ending a row of floating */
+.wd-float-done {
+    clear: both;
+}
+
+/* For 1px solid dark grey borders without a bottom border */
+.wd-border-no-bottom {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+}
+
+/* For 1px solid dark grey borders on all 4 sides */
+.wd-full-border {
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Background is black */
+body {
+    background-color: black;
+}
+
+/* All content is in this div and offset from left side of screen */
+.wd-main-div {
+    margin-left: 22px;
+}
+
+/* Content that should be 16px away from the left border */
+.wd-content-offset-from-left-border {
+    padding-left: 16px;
+}
+
+/* For content that requires just a bottom border to be added */
+.wd-content-border {
+    border-color: rgb(47, 51, 54);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}

@@ -1,0 +1,146 @@
+/* Div for header (containing "Bookmarks" and user handle) */
+.wd-header-div {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* Grey text */
+.wd-grey-text {
+    color: #a2a2a2;
+}
+
+.wd-red-text {
+    color: red;
+}
+
+/* Formatting the word "Bookmarks" */
+.wd-header-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 4px 0px;
+}
+
+/* Formatting the user handle */
+.wd-user-handle-text {
+    font-size: 13px;
+    margin: 0px;
+}
+
+/* Div for a bookmarked tuit */
+.wd-bookmarked-tuit-div {
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+}
+
+/* Div for a profile picture for a Tuit poster */
+.wd-avatar-image-div {
+    margin: 0px 12px 0px 0px;
+}
+
+/* Formatting the profile picture for a Tuit poster */
+.wd-avatar-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+/* Div containing the Tuit poster's name, handle, and date posted */
+.wd-bookmarked-tuit-heading-div {
+    margin-bottom: 5px;
+}
+
+/* Formatting the text for the heading of a Tuit */
+.wd-bookmarked-tuit-heading-text {
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* Formatting the text of the author's name in a Tuit heading */
+.wd-bookmarked-tuit-author-name-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* Formatting the handle and date in a Tuit heading */
+.wd-bookmarked-tuit-info-text {
+    margin-left: 5px;
+}
+
+/* Formatting the body text in a Tuit */
+.wd-bookmarked-tuit-body-text {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin: 0px;
+}
+
+/* Div for an embedded link with an image in a Tuit */
+.wd-bookmarked-tuit-embed-div {
+    margin-top: 12px;
+}
+
+/* Formatting the image found in an embedded link */
+.wd-embed-image {
+    width: 504px;
+    height: 264px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: block;
+}
+
+/* Div for the text inside the embed below the image */
+.wd-embed-text-div {
+    padding: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 480px;
+}
+
+.wd-embed-text {
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* Formatting the title of the embed */
+.wd-embed-title-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* Formatting the body of the embed */
+.wd-embed-body-text {
+    margin-top: 5px;
+}
+
+/* Formatting the link in the embed */
+.wd-embed-link-text {
+    display: block;
+    text-decoration-line: none;
+}
+
+/* Div for the icons at the bottom of the Tuit */
+.wd-icons-bar-div {
+    margin: 12px 0px 0px 0px;
+}
+
+/* Div for the icon with a number if applicable */
+.wd-icon-div {
+    width: 25%;
+}
+
+/* Formatting the icon images */
+.wd-tuit-icon {
+    height: 22px;
+    width: 22px;
+    object-fit: contain;
+}
+
+/* Formatting the text next to the icons when they are grey */
+.wd-tuit-icon-text {
+    margin: 0px;
+    padding: 0px 0px 0px 12px;
+}
