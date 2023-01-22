@@ -4,54 +4,125 @@
   <meta charset="UTF-8">
   <title>Title</title>
 
-  <link href="index.css"
-        rel="stylesheet"/>
+  <link href="index.css" rel="stylesheet"/>
 </head>
+
 <body>
 <div class="wd-main-div">
-  <div class="wd-search-settings-and-links-div wd-border">
-    <div class="wd-search-tuiter-and-settings-div">
-      <div class="wd-float-left wd-search-tuiter-bar-div">
-        <input class="wd-search-tuiter-bar" placeholder="Search Tuiter"/>
-      </div>
 
-      <div class="wd-float-right wd-gear-icon-div">
-        <a href="explore-settings.html"><img src="settings_gear.png" class="wd-gear-icon"></a>
-      </div>
+  <!-- Div for the search bar/settings icon and the row of links below (the header) -->
+  <div class="wd-header-div wd-content-offset-from-left-border wd-border">
 
+    <!-- Div for search bar -->
+    <div class="wd-float-left wd-search-tuiter-bar-div">
+      <input class="wd-search-tuiter-bar" placeholder="Search Tuiter"/>
+    </div>
+
+    <!-- Div for the gear icon link for settings -->
+    <div class="wd-float-right wd-gear-image-div">
+      <a href="explore-settings.html">
+        <img src="settings_gear.png" class="wd-gear-image"/>
+      </a>
+    </div>
+
+    <!-- End this float row -->
+    <div class="wd-float-done"></div>
+
+    <!-- Divs for the row of links starting with "For you": -->
+    <div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link wd-link-current">For you</a>
+      </div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link">Trending</a>
+      </div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link">COVID-19</a>
+      </div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link">News</a>
+      </div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link">Sports</a>
+      </div>
+      <div class="wd-float-left wd-header-link-div">
+        <a class="wd-link">Entertainment</a>
+      </div>
+      <div class="wd-float-done"></div>
+    </div>
+  </div>
+
+  <!-- Div for the tuits -->
+  <div class="wd-tuits-div wd-border">
+    <!-- No image Tuit -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <p class="wd-suggested-tuit-info-text">Trending in Science</p>
+      <p class="wd-suggested-tuit-title-text">Starship</p>
+      <p class="wd-suggested-tuit-info-text">55.5k Tuits</p>
+    </div>
+
+    <!-- No image Tuit -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <p class="wd-suggested-tuit-info-text">Sports • Trending</p>
+      <p class="wd-suggested-tuit-title-text">Joe Rogan</p>
+      <p class="wd-suggested-tuit-info-text">5,218 Tuits</p>
+    </div>
+
+    <!-- Image/author Tuit -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <div class="wd-float-left wd-suggested-tuit-text-div">
+        <p class="wd-float-left wd-suggested-tuit-author-text">The New York Times</p>
+        <p class="wd-float-left wd-suggested-tuit-info-text">• Yesterday</p>
+        <div class="wd-float-done"></div>
+        <p class="wd-suggested-tuit-title-text">CNN's Cuomo conundrum: A star anchor with a brother
+          in trouble</p>
+      </div>
+      <div class="wd-float-right wd-suggested-tuit-image-div">
+        <img class="wd-suggested-tuit-image" src="new_york_times.png"/>
+      </div>
       <div class="wd-float-done"></div>
     </div>
 
-    <div class="wd-links-div">
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link wd-link-current">For you</a>
+    <!-- Image Tuit with no author -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <div class="wd-float-left wd-suggested-tuit-text-div">
+        <p class="wd-suggested-tuit-info-text">COVID-19 • Live</p>
+        <p class="wd-suggested-tuit-title-text">COVID-19: News and updates for Massachusetts</p>
       </div>
-
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link">Trending</a>
+      <div class="wd-float-right wd-suggested-tuit-image-div">
+        <img class="wd-suggested-tuit-image" src="covid-ma.png"/>
       </div>
+      <div class="wd-float-done"></div>
+    </div>
 
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link">COVID-19</a>
+    <!-- Image/author Tuit -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <div class="wd-float-left wd-suggested-tuit-text-div">
+        <p class="wd-float-left wd-suggested-tuit-author-text">Bloomberg Opinion</p>
+        <p class="wd-float-left wd-suggested-tuit-info-text">• Yesterday</p>
+        <div class="wd-float-done"></div>
+        <p class="wd-suggested-tuit-title-text">Thinking about getting a booster? Read this
+          first.</p>
       </div>
-
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link">News</a>
+      <div class="wd-float-right wd-suggested-tuit-image-div">
+        <img class="wd-suggested-tuit-image" src="covid-booster.jpg"/>
       </div>
+      <div class="wd-float-done"></div>
+    </div>
 
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link">Sports</a>
+    <!-- Image Tuit with no author -->
+    <div class="wd-suggested-tuit-div wd-content-offset-from-left-border">
+      <div class="wd-float-left wd-suggested-tuit-text-div">
+        <p class="wd-suggested-tuit-info-text">NFL • Live</p>
+        <p class="wd-suggested-tuit-title-text">Bengals vs. Bills</p>
       </div>
-
-      <div class="wd-float-left wd-link-div">
-        <a class="wd-link">Entertainment</a>
+      <div class="wd-float-right wd-suggested-tuit-image-div">
+        <img class="wd-suggested-tuit-image" src="football.png"/>
       </div>
-
       <div class="wd-float-done"></div>
     </div>
   </div>
 
 </div>
-
 </body>
 </html>
