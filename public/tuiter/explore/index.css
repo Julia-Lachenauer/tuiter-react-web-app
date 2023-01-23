@@ -48,6 +48,7 @@
     font-size: 15px;
     color: rgb(110, 118, 125);
     padding: 16px;
+    text-decoration-line: none;
 }
 
 /* Formatting for the currently activated link the header */
