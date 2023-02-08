@@ -1,109 +1,27 @@
-/* For the header (the search bar/settings icon and row of links below) */
-.wd-header-div {
-    padding-top: 12px;
+.wd-search-bar::placeholder {
+    position: absolute;
+    bottom: 23.5%;
 }
 
-/* For the div containing the search bar */
-.wd-search-tuiter-bar-div {
-    width: 85%;
+.wd-search-icon {
+    top: 30%;
+    left: 25px;
 }
 
-/* Formatting the search bar */
-.wd-search-tuiter-bar {
-    color: white;
-    background-color: #252525;
-    border-radius: 14px;
-    border-width: 0px;
-    width: 100%;
-    height: 23px;
-    text-indent: 20px;
+.wd-gear-icon {
+    color: #0C6DFD;
 }
 
-/* Adjust the text inside the placeholder "Search Tuiter" text */
-.wd-search-tuiter-bar::placeholder {
-    position: relative;
-    top: 4.75%;
+.wd-card-title-over-image {
+    top: 374px;
 }
 
-/* Adjust the div containing the settings gear icon */
-.wd-gear-image-div {
-    margin-right: 12px;
+.wd-explore-tuit-icon {
+    height: 80px;
+    width: 80px;
 }
 
-/* Sizing the gear icon itself */
-.wd-gear-image {
-    width: 27px;
-    height: 27px;
-}
-
-/* Div for each link in the header */
-.wd-header-link-div {
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-/* Formatting each link in the header */
-.wd-link {
-    text-align: center;
-    font-size: 15px;
-    color: rgb(110, 118, 125);
-    padding: 16px;
-    text-decoration-line: none;
-}
-
-/* Formatting for the currently activated link the header */
-.wd-link-current {
-    color: rgb(29, 161, 242);
-    border-color: rgb(29, 161, 242);
-    border-style: solid;
-    border-width: 0px 0px 4px 0px;
-}
-
-/* For the div for each suggested Tuit */
-.wd-suggested-tuit-div {
-    padding-top: 11px;
-    padding-bottom: 6px;
-}
-
-/* Formatting the info text for a suggested Tuit (such as "Trending in Science") */
-.wd-suggested-tuit-info-text {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    margin: 0px;
-    padding-bottom: 5px;
-}
-
-/* Formatting the title of a suggested Tuit */
-.wd-suggested-tuit-title-text {
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    margin: 0px;
-    padding-bottom: 8px;
-}
-
-/* Formatting the author of a suggested Tuit */
-.wd-suggested-tuit-author-text {
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-    margin: 0px 5px 0px 0px;
-    padding-bottom: 5px;
-}
-
-/* Formatting the image on the right of some suggested Tuits */
-.wd-suggested-tuit-image {
-    border-radius: 10px;
-    height: 100px;
-    width: 100px;
-    object-fit: cover;
-}
-
-/* Formatting the text */
-.wd-suggested-tuit-text-div {
-    width: 55%;
-}
-
-.wd-suggested-tuit-image-div {
-    margin-right: 16px;
+.wd-explore-avatar {
+    height: 50px;
+    width: 50px;
 }
