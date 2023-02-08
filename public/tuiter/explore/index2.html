@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link href="../../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="index2.css" rel="stylesheet"/>
+  </head>
+  <body>
+
+    <div class="container mt-2">
+      <div class="row">
+        <!-- Left Side Column: List of Links -->
+        <div class="col-2">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-home"></i> Home
+            </a>
+            <a href="#" class="list-group-item list-group-item-action active">
+              <i class="fa-solid fa-hashtag"></i> Explore
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-bell"></i> Notifications
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-envelope"></i> Messages
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-bookmark"></i> Bookmarks
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-list"></i> Lists
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-user"></i> Profile
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <i class="fa-solid fa-ellipsis-h"></i> More</a>
+            <button type="button" class="mt-1 btn btn-primary rounded-pill">Tuit</button>
+          </div>
+
+        </div>
+
+        <!-- Middle Column: Main Content -->
+        <div class="col-6">
+          <!-- Search bar and gear icon -->
+          <div class="row">
+            <div class="col-11 position-relative">
+              <i class="fa-solid fa-search position-absolute wd-search-icon"></i>
+              <input type="text" class="form-control ps-5 rounded-pill wd-search-bar"
+                     placeholder="Search Tuiter">
+            </div>
+            <i class="col-1 fa-solid fa-2x pt-1 fa-gear wd-gear-icon position-relative"></i>
+          </div>
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs mt-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">For you</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+          </ul>
+
+          <!-- Card with Image and Explore Tuits -->
+          <div class="mt-2 card rounded-0 rounded-bottom">
+            <!-- Image with text -->
+            <img class="card-img-top rounded-0" src="spacex.png" alt="SpaceX Rocket">
+            <h2 class="card-title ms-2 position-absolute wd-card-title-over-image text-white fw-bold">
+              SpaceX's Starship
+            </h2>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="m-0 text-muted">Web Development</p>
+                    <p class="m-0 fs-6">
+                      <span class="fw-bold">ReactJS</span>
+                      <i class="fa-solid fa-check-circle"></i>
+                      <span class="text-muted">- 2h</span>
+                    </p>
+                    <p class="m-0 fw-bold">
+                      React.js is a component based front end library that makes it very easy to
+                      build Single Page Applications or SPAs
+                    </p>
+                  </div>
+                  <div class="col-3">
+                    <img class="wd-explore-tuit-icon rounded float-end" src="reactJS.png">
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="m-0 fs-6">
+                      <span class="fw-bold">JavaScript</span>
+                      <i class="fa-solid fa-check-circle"></i>
+                      <span class="text-muted">- 2h</span>
+                    </p>
+                    <p class="m-0 fw-bold">
+                      JavaScript is programming language that can run on browsers as well as
+                      desktops
+                    </p>
+                    <p class="m-0 text-muted">123K Tuits</p>
+                  </div>
+                  <div class="col-3">
+                    <img class="wd-explore-tuit-icon rounded float-end" src="JavaScript-logo.png">
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="m-0 text-muted">Web Development</p>
+                    <p class="m-0 fw-bold">jQuery</p>
+                    <p class="m-0 text-muted">123K Tuits</p>
+                  </div>
+                  <div class="col-3">
+                    <img class="wd-explore-tuit-icon rounded float-end" src="jQuery.png">
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-group-item">
+                <div class="row">
+                  <div class="col-9">
+                    <p class="m-0 fs-6">
+                    <p class="m-0 text-muted">Web Development</p>
+                    <span class="fw-bold">NodeJS</span>
+                    <i class="fa-solid fa-check-circle"></i>
+                    <span class="text-muted">- 2h</span>
+                    <p class="m-0 text-muted">123K Tuits</p>
+                  </div>
+                  <div class="col-3">
+                    <img class="wd-explore-tuit-icon rounded float-end" src="nodeJS.png">
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Right Column: List of Users -->
+        <div class="col-4">
+          <ul class="list-group">
+            <li class="list-group-item fw-bold">
+              Who to follow
+            </li>
+
+            <!-- Java -->
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-2">
+                  <img class="rounded-circle float-start wd-explore-avatar" src="java.png"/>
+                </div>
+                <div class="col-8">
+                  <span class="fw-bold">Java</span>
+                  <i class="fa-solid fa-check-circle"></i>
+                  <p class="m-0">@Java</p>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-1 btn btn-primary rounded-pill float-end">Follow
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Relativity Space -->
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-2">
+                  <img class="rounded-circle float-start wd-explore-avatar"
+                       src="relativity_space.png"/>
+                </div>
+                <div class="col-8">
+                  <span class="fw-bold">Relativity Space</span>
+                  <i class="fa-solid fa-check-circle"></i>
+                  <p class="m-0">@relativityspace</p>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-1 btn btn-primary rounded-pill float-end">Follow
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Virgin Galactic -->
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-2">
+                  <img class="rounded-circle float-start wd-explore-avatar"
+                       src="virgin_galactic.png"/>
+                </div>
+                <div class="col-8">
+                  <span class="fw-bold">Virgin Galactic</span>
+                  <i class="fa-solid fa-check-circle"></i>
+                  <p class="m-0">@virgingalactic</p>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-1 btn btn-primary rounded-pill float-end">Follow
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- NASA -->
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-2">
+                  <img class="rounded-circle float-start wd-explore-avatar" src="nasa.png"/>
+                </div>
+                <div class="col-8">
+                  <span class="fw-bold">NASA</span>
+                  <i class="fa-solid fa-check-circle"></i>
+                  <p class="m-0">@NASA</p>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-1 btn btn-primary rounded-pill float-end">Follow
+                  </button>
+                </div>
+              </div>
+            </li>
+
+            <!-- Tesla -->
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-2">
+                  <img class="rounded-circle float-start wd-explore-avatar" src="tesla.png"/>
+                </div>
+                <div class="col-8">
+                  <span class="fw-bold">Tesla</span>
+                  <i class="fa-solid fa-check-circle"></i>
+                  <p class="m-0">@Tesla</p>
+                </div>
+                <div class="col-2">
+                  <button type="button" class="mt-1 btn btn-primary rounded-pill float-end">Follow
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

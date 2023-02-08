@@ -1,0 +1,27 @@
+.wd-search-bar::placeholder {
+    position: absolute;
+    bottom: 23.5%;
+}
+
+.wd-search-icon {
+    top: 30%;
+    left: 25px;
+}
+
+.wd-gear-icon {
+    color: #0C6DFD;
+}
+
+.wd-card-title-over-image {
+    top: 374px;
+}
+
+.wd-explore-tuit-icon {
+    height: 80px;
+    width: 80px;
+}
+
+.wd-explore-avatar {
+    height: 50px;
+    width: 50px;
+}
