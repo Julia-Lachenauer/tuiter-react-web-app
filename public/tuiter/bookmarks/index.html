@@ -1,203 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
 
-  <link href="../styles.css" rel="stylesheet"/>
-  <link href="index.css" rel="stylesheet"/>
-</head>
-<body>
-<div class="wd-main-div">
-  <!-- Div for header ("Bookmarks" and user handle) -->
-  <div class="wd-header-div wd-content-offset-from-left-border wd-border-no-bottom">
-    <p class="wd-header-text">Bookmarks</p>
-    <p class="wd-user-handle-text wd-grey-text">@WebDev</p>
-  </div>
-
-  <!-- Div for bookmarked Tuits -->
-  <div class="wd-border-no-bottom">
-
-    <!-- Div for first bookmarked Tuit -->
-    <div class="wd-bookmarked-tuit-div wd-content-border wd-content-offset-from-left-border">
-      <!-- Profile picture of user who posted this Tuit -->
-      <div class="wd-float-left wd-avatar-image-div">
-        <img class="wd-avatar-image" src="robert_zubrin.jpg">
+    <link href="../styles.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wd-main-div">
+      <!-- Div for header ("Bookmarks" and user handle) -->
+      <div class="wd-header-div wd-content-offset-from-left-border wd-border-no-bottom">
+        <p class="wd-header-text">Bookmarks</p>
+        <p class="wd-user-handle-text wd-grey-text">@WebDev</p>
       </div>
 
-      <!-- Div for Tuit heading (user, handle, date) and Tuit body content -->
-      <div class="wd-float-left wd-bookmarked-tuit-content-div">
-        <!-- Tuit heading (user, handle, date) -->
-        <div class="wd-bookmarked-tuit-heading-div">
-          <p class="wd-float-left wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-author-name-text">
-            Robert Zubrin</p>
-          <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
-            @robert_zubrin</p>
-          <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
-            • Jul 31</p>
+      <!-- Div for bookmarked Tuits -->
+      <div class="wd-border-no-bottom">
+
+        <!-- Div for first bookmarked Tuit -->
+        <div class="wd-bookmarked-tuit-div wd-content-border wd-content-offset-from-left-border">
+          <!-- Profile picture of user who posted this Tuit -->
+          <div class="wd-float-left wd-avatar-image-div">
+            <img class="wd-avatar-image" src="../../images/robert_zubrin.jpg">
+          </div>
+
+          <!-- Div for Tuit heading (user, handle, date) and Tuit body content -->
+          <div class="wd-float-left wd-bookmarked-tuit-content-div">
+            <!-- Tuit heading (user, handle, date) -->
+            <div class="wd-bookmarked-tuit-heading-div">
+              <p class="wd-float-left wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-author-name-text">
+                Robert Zubrin</p>
+              <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
+                @robert_zubrin</p>
+              <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
+                • Jul 31</p>
+              <div class="wd-float-done"></div>
+            </div>
+
+            <!-- Tuit body text content -->
+            <p class="wd-bookmarked-tuit-body-text">Lorem ipsum dolor sit amet, consectetur
+              adipiscing
+              elit. Praesent ut odio suscipit, gravida arcu et, semper felis. Mauris purus mauris,
+              eleifend in risus ut, placerat porttitor erat. Nam finibus ex augue, vitae fringilla
+              arcu
+              rhoncus a. Fusce et elit lacus. Ut pulvinar massa sed turpis gravida tristique. Aenean
+              a
+              diam nibh. Nam pharetra ac metus lacinia aliquam. Quisque eu congue dui, nec tincidunt
+              mi.
+              In hac habitasse platea dictumst. Quisque lorem purus, tempor ac nulla pellentesque,
+              scelerisque dictum tortor.</p>
+
+            <!-- Image from embed -->
+            <div class="wd-bookmarked-tuit-embed-div">
+              <img class="wd-embed-image wd-border-no-bottom" src="../../images/students1.jpeg"/>
+            </div>
+
+            <!-- Embed title, body, and link text -->
+            <div class="wd-full-border wd-embed-text-div">
+              <p class="wd-embed-text wd-embed-title-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit....</p>
+              <p class="wd-embed-text wd-grey-text wd-embed-body-text">Lorem ipsum dolor sit amet,
+                consectetur
+                adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <a class="wd-embed-text wd-embed-link-text wd-grey-text wd-embed-body-text"
+                 href="https://google.com">google.com</a>
+            </div>
+
+            <!-- Reply, retuit, like, and share buttons at bottom -->
+            <div class="wd-icons-bar-div">
+              <!-- Reply button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/reply.png"/>
+                  <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Retuit button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/retuit.png"/>
+                  <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Like button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/heart.png"/>
+                  <p class="wd-float-left wd-red-text wd-tuit-icon-text">22</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Share button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/share.png"/>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <div class="wd-float-done"></div>
+            </div>
+          </div>
           <div class="wd-float-done"></div>
         </div>
 
-        <!-- Tuit body text content -->
-        <p class="wd-bookmarked-tuit-body-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Praesent ut odio suscipit, gravida arcu et, semper felis. Mauris purus mauris,
-          eleifend in risus ut, placerat porttitor erat. Nam finibus ex augue, vitae fringilla arcu
-          rhoncus a. Fusce et elit lacus. Ut pulvinar massa sed turpis gravida tristique. Aenean a
-          diam nibh. Nam pharetra ac metus lacinia aliquam. Quisque eu congue dui, nec tincidunt mi.
-          In hac habitasse platea dictumst. Quisque lorem purus, tempor ac nulla pellentesque,
-          scelerisque dictum tortor.</p>
-
-        <!-- Image from embed -->
-        <div class="wd-bookmarked-tuit-embed-div">
-          <img class="wd-embed-image wd-border-no-bottom" src="students1.jpeg"/>
-        </div>
-
-        <!-- Embed title, body, and link text -->
-        <div class="wd-full-border wd-embed-text-div">
-          <p class="wd-embed-text wd-embed-title-text">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit....</p>
-          <p class="wd-embed-text wd-grey-text wd-embed-body-text">Lorem ipsum dolor sit amet,
-            consectetur
-            adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <a class="wd-embed-text wd-embed-link-text wd-grey-text wd-embed-body-text"
-             href="https://google.com">google.com</a>
-        </div>
-
-        <!-- Reply, retuit, like, and share buttons at bottom -->
-        <div class="wd-icons-bar-div">
-          <!-- Reply button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="reply.png"/>
-              <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
-            </a>
-            <div class="wd-float-done"></div>
+        <!-- Div for second bookmarked Tuit -->
+        <div class="wd-bookmarked-tuit-div wd-content-border wd-content-offset-from-left-border">
+          <!-- Profile picture of user who posted this Tuit -->
+          <div class="wd-float-left wd-avatar-image-div">
+            <img class="wd-avatar-image" src="../../images/person1.jpg">
           </div>
 
-          <!-- Retuit button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="retuit.png"/>
-              <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
+          <!-- Div for Tuit heading (user, handle, date) and Tuit body content -->
+          <div class="wd-float-left wd-bookmarked-tuit-content-div">
+            <!-- Tuit heading (user, handle, date) -->
+            <div class="wd-bookmarked-tuit-heading-div">
+              <p class="wd-float-left wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-author-name-text">
+                John</p>
+              <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
+                @john</p>
+              <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
+                • Aug 19</p>
+              <div class="wd-float-done"></div>
+            </div>
 
-          <!-- Like button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="heart.png"/>
-              <p class="wd-float-left wd-red-text wd-tuit-icon-text">22</p>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
+            <!-- Tuit body text content -->
+            <p class="wd-bookmarked-tuit-body-text">Lorem ipsum dolor sit amet, consectetur
+              adipiscing
+              elit. Quisque urna neque, aliquam sit amet sodales sed, dictum ac purus. Suspendisse
+              vitae
+              justo ut justo congue viverra. Mauris vel sapien eu dolor pharetra suscipit. Etiam
+              placerat laoreet quam, et condimentum mi tristique vitae. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Pellentesque sollicitudin consectetur mauris, vel iaculis
+              massa elementum ut. Phasellus vitae sem finibus metus lacinia pharetra. Quisque et
+              nunc
+              sed turpis eleifend tempor id quis diam. Vestibulum accumsan ante quis nunc aliquam,
+              porta
+              sagittis est tristique. Nullam at lobortis odio. Aenean finibus arcu ut massa
+              pharetra,
+              sed dapibus massa placerat. Phasellus quis erat tempor, vulputate turpis eu,
+              sollicitudin
+              ex. Nullam fermentum ultricies libero. Pellentesque aliquet congue massa. Vestibulum
+              sed
+              pharetra leo.</p>
 
-          <!-- Share button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="share.png"/>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
+            <!-- Image from embed -->
+            <div class="wd-bookmarked-tuit-embed-div">
+              <img class="wd-embed-image wd-border-no-bottom" src="../../images/boston.jpg"/>
+            </div>
 
+            <!-- Embed title, body, and link text -->
+            <div class="wd-full-border wd-embed-text-div">
+              <p class="wd-embed-text wd-embed-title-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit....</p>
+              <p class="wd-embed-text wd-grey-text wd-embed-body-text">Lorem ipsum dolor sit amet,
+                consectetur
+                adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <a class="wd-embed-text wd-embed-link-text wd-grey-text wd-embed-body-text"
+                 href="https://google.com">google.com</a>
+            </div>
+
+            <!-- Reply, retuit, like, and share buttons at bottom -->
+            <div class="wd-icons-bar-div">
+              <!-- Reply button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/reply.png"/>
+                  <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Retuit button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/retuit.png"/>
+                  <p class="wd-float-left wd-grey-text wd-tuit-icon-text">10</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Like button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/heart.png"/>
+                  <p class="wd-float-left wd-red-text wd-tuit-icon-text">30</p>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <!-- Share button -->
+              <div class="wd-float-left wd-icon-div">
+                <a href="#">
+                  <img class="wd-float-left wd-tuit-icon" src="../../images/share.png"/>
+                </a>
+                <div class="wd-float-done"></div>
+              </div>
+
+              <div class="wd-float-done"></div>
+            </div>
+          </div>
           <div class="wd-float-done"></div>
         </div>
       </div>
-      <div class="wd-float-done"></div>
     </div>
-
-    <!-- Div for second bookmarked Tuit -->
-    <div class="wd-bookmarked-tuit-div wd-content-border wd-content-offset-from-left-border">
-      <!-- Profile picture of user who posted this Tuit -->
-      <div class="wd-float-left wd-avatar-image-div">
-        <img class="wd-avatar-image" src="person1.jpg">
-      </div>
-
-      <!-- Div for Tuit heading (user, handle, date) and Tuit body content -->
-      <div class="wd-float-left wd-bookmarked-tuit-content-div">
-        <!-- Tuit heading (user, handle, date) -->
-        <div class="wd-bookmarked-tuit-heading-div">
-          <p class="wd-float-left wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-author-name-text">
-            John</p>
-          <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
-            @john</p>
-          <p class="wd-float-left wd-grey-text wd-bookmarked-tuit-heading-text wd-bookmarked-tuit-info-text">
-            • Aug 19</p>
-          <div class="wd-float-done"></div>
-        </div>
-
-        <!-- Tuit body text content -->
-        <p class="wd-bookmarked-tuit-body-text">Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Quisque urna neque, aliquam sit amet sodales sed, dictum ac purus. Suspendisse vitae
-          justo ut justo congue viverra. Mauris vel sapien eu dolor pharetra suscipit. Etiam
-          placerat laoreet quam, et condimentum mi tristique vitae. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Pellentesque sollicitudin consectetur mauris, vel iaculis
-          massa elementum ut. Phasellus vitae sem finibus metus lacinia pharetra. Quisque et nunc
-          sed turpis eleifend tempor id quis diam. Vestibulum accumsan ante quis nunc aliquam, porta
-          sagittis est tristique. Nullam at lobortis odio. Aenean finibus arcu ut massa pharetra,
-          sed dapibus massa placerat. Phasellus quis erat tempor, vulputate turpis eu, sollicitudin
-          ex. Nullam fermentum ultricies libero. Pellentesque aliquet congue massa. Vestibulum sed
-          pharetra leo.</p>
-
-        <!-- Image from embed -->
-        <div class="wd-bookmarked-tuit-embed-div">
-          <img class="wd-embed-image wd-border-no-bottom" src="boston.jpg"/>
-        </div>
-
-        <!-- Embed title, body, and link text -->
-        <div class="wd-full-border wd-embed-text-div">
-          <p class="wd-embed-text wd-embed-title-text">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit....</p>
-          <p class="wd-embed-text wd-grey-text wd-embed-body-text">Lorem ipsum dolor sit amet,
-            consectetur
-            adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <a class="wd-embed-text wd-embed-link-text wd-grey-text wd-embed-body-text"
-             href="https://google.com">google.com</a>
-        </div>
-
-        <!-- Reply, retuit, like, and share buttons at bottom -->
-        <div class="wd-icons-bar-div">
-          <!-- Reply button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="reply.png"/>
-              <p class="wd-float-left wd-grey-text wd-tuit-icon-text">22</p>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
-
-          <!-- Retuit button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="retuit.png"/>
-              <p class="wd-float-left wd-grey-text wd-tuit-icon-text">10</p>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
-
-          <!-- Like button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="heart.png"/>
-              <p class="wd-float-left wd-red-text wd-tuit-icon-text">30</p>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
-
-          <!-- Share button -->
-          <div class="wd-float-left wd-icon-div">
-            <a href="#">
-              <img class="wd-float-left wd-tuit-icon" src="share.png"/>
-            </a>
-            <div class="wd-float-done"></div>
-          </div>
-
-          <div class="wd-float-done"></div>
-        </div>
-      </div>
-      <div class="wd-float-done"></div>
-    </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>
