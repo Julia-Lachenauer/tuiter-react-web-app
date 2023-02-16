@@ -36,7 +36,7 @@ const ExploreComponent = () => {
           <div class="mt-2 card rounded-0 rounded-bottom">
             <!-- Image with text -->
             <img class="card-img-top rounded-0" src="../../images/spacex.png" alt="SpaceX Rocket">
-            <h2 class="card-title ms-2 position-absolute wd-card-title-over-image text-white fw-bold">
+            <h2 class="card-title ms-2 position-absolute wd-card-title-over-image fw-bold">
               SpaceX's Starship
             </h2>
             
