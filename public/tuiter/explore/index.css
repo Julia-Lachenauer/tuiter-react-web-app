@@ -4,12 +4,13 @@
 }
 
 .wd-search-icon {
-    top: 30%;
+    top: 28%;
     left: 25px;
+    color: darkgrey;
 }
 
 .wd-gear-icon {
-    color: #0C6DFD;
+    color: #2a9fd6;
 }
 
 .wd-card-title-over-image {

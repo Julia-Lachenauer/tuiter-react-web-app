@@ -3,7 +3,7 @@ const WhoToFollowListItem = (who) => {
     <a href="#" class="list-group-item">
       <div class="row">
         <div class="col-2">
-          <img class="rounded-circle float-start wd-explore-avatar" src="../../images/${who.avatarIcon}"/>
+          <img class="rounded-circle float-start wd-explore-avatar" src="${who.avatarIcon}"/>
         </div>
         <div class="col-8">
           <span class="fw-bold">${who.userName}</span>
