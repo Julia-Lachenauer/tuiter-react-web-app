@@ -7,39 +7,52 @@ const NavigationSidebar = (
 ) => {
   return (
       <div className="list-group">
-        <a className="list-group-item">Tuiter</a>
+        <a className="list-group-item">
+          <i className="bi bi-twitter"></i>
+        </a>
         <a className={`list-group-item
                     ${active === 'home' ? 'active' : ''}`}>
-          Home
+          <i className="bi bi-house-fill"></i>
+          <span className="d-none d-xl-inline ps-1">Home</span>
         </a>
         <a className={`list-group-item
                     ${active === 'explore' ? 'active' : ''}`}>
-          Explore
+          <i className="bi bi-hash"></i>
+          <span className="d-none d-xl-inline ps-1">Explore</span>
         </a>
         <a className={`list-group-item
                     ${active === 'notifications' ? 'active' : ''}`}>
-          Notifications
+          <i className="bi bi-bell-fill"></i>
+          <span className="d-none d-xl-inline ps-1">Notifications</span>
         </a>
         <a className={`list-group-item
                     ${active === 'messages' ? 'active' : ''}`}>
-          Messages
+          <i className="bi bi-envelope-fill"></i>
+          <span className="d-none d-xl-inline ps-1">Messages</span>
         </a>
         <a className={`list-group-item
                     ${active === 'bookmarks' ? 'active' : ''}`}>
-          Bookmarks
+          <i className="bi bi-bookmark-fill"></i>
+          <span className="d-none d-xl-inline ps-1">Bookmarks</span>
         </a>
         <a className={`list-group-item
                     ${active === 'lists' ? 'active' : ''}`}>
-          Lists
+          <i className="bi bi-list-task"></i>
+          <span className="d-none d-xl-inline ps-1">Lists</span>
         </a>
         <a className={`list-group-item
                     ${active === 'profile' ? 'active' : ''}`}>
-          Profile
+          <i className="bi bi-person-fill"></i>
+          <span className="d-none d-xl-inline ps-1">Profile</span>
         </a>
         <a className={`list-group-item
                     ${active === 'more' ? 'active' : ''}`}>
-          More
+          <i className="bi bi-three-dots"></i>
+          <span className="d-none d-xl-inline ps-1">More</span>
         </a>
+        <button type="button"
+                className="mt-1 btn btn-primary rounded-pill">Tuit
+        </button>
       </div>
   );
 };

@@ -15,7 +15,11 @@ const PostSummaryItem = (
       <li className="list-group-item">
         <div className="row">
           <div className="col-10">
-            <div>{post.userName} . {post.time}</div>
+            <div>
+              <span>{post.userName}</span>
+              <i className="bi bi-check-circle-fill ps-1 pe-1"></i>
+              <span>- {post.time}</span></div>
+
             <div className="fw-bolder">{post.topic}</div>
             <div>{post.title}</div>
           </div>
