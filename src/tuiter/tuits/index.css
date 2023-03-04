@@ -5,3 +5,12 @@
 .wd-liked-icon {
     color: red;
 }
+
+.wd-image-center {
+    align-items: center;
+}
+
+.wd-tuit-stats-link {
+    text-decoration: none;
+    color: black;
+}

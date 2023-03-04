@@ -21,18 +21,19 @@ const TuitItem = (
     }
 ) => {
   return (<li className="list-group-item">
-    <div className="row">
-      <div className="col-2">
-        <img width={48} className="float-end rounded-circle"
+    <div className="row ps-1 pe-1">
+      <div className="col-1">
+        <img width={48} className=" rounded-circle"
              src={`/images/${tuit.image}`}/>
       </div>
-      <div className="col-10">
-        <div>
+      <div className="col-11 ps-4">
+        <div className="mb-2">
           <span className="fw-bold">{tuit.userName}</span>
           <i className="bi bi-patch-check-fill ps-1 pe-1 wd-verified-icon"></i>
           <span>{tuit.handle}</span>
-          <span> • {tuit.time}</span></div>
-        <div>{tuit.tuit}</div>
+          <span> • {tuit.time}</span>
+          <div>{tuit.tuit}</div>
+        </div>
         <TuitStats tuit={tuit}/>
       </div>
     </div>
