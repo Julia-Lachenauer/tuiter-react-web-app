@@ -1,15 +1,14 @@
 import React from "react";
-import ExploreComponent from "./explore";
-import NavigationSidebar from "./navigation-sidebar";
-import WhoToFollowList from "./who-to-follow-list";
-import whoReducer from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
-import {configureStore} from '@reduxjs/toolkit';
 import {Provider} from "react-redux";
+import NavigationSidebar from "../navigation-sidebar";
+import ExploreComponent from "../explore";
+import WhoToFollowList from "../who-to-follow-list";
+import {configureStore} from "@reduxjs/toolkit";
+import tuitsReducer from "../tuits/tuits-reducer";
 
-const store = configureStore({reducer: {who: whoReducer, tuits: tuitsReducer}});
+const HomeComponent = () => {
+  const store = configureStore({reducer: {tuits: tuitsReducer}});
 
-function Tuiter() {
   return (
       <Provider store={store}>
         <div className="row mt-2">
@@ -26,6 +25,4 @@ function Tuiter() {
         </div>
       </Provider>
   );
-}
-
-export default Tuiter;
+};
