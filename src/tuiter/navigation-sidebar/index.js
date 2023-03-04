@@ -17,9 +17,14 @@ const NavigationSidebar = (
           <span className="d-none d-xl-inline ps-1">Home</span>
         </Link>
         <Link className={`list-group-item
-                    ${active === 'explore' ? 'active' : ''}`} to="/explore">
+                    ${active === 'explore' ? 'active' : ''}`}>
           <i className="bi bi-hash"></i>
           <span className="d-none d-xl-inline ps-1">Explore</span>
+        </Link>
+        <Link className={`list-group-item
+                    ${active === 'labs' ? 'active' : ''}`} to="/">
+          <i className="bi bi-asterisk"></i>
+          <span className="d-none d-xl-inline ps-1">Labs</span>
         </Link>
         <Link className={`list-group-item
                     ${active === 'notifications' ? 'active' : ''}`}>

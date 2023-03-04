@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const WhoToFollowListItem = (
     {
@@ -6,7 +7,7 @@ const WhoToFollowListItem = (
     }
 ) => {
   return (
-      <a href="#" className="list-group-item">
+      <Link href="#" className="list-group-item">
         <div className="row">
           <div className="col-2">
             <img className="rounded-circle" height={48}
@@ -24,7 +25,7 @@ const WhoToFollowListItem = (
             </button>
           </div>
         </div>
-      </a>
+      </Link>
   );
 };
 export default WhoToFollowListItem;
