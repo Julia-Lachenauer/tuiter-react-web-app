@@ -13,4 +13,5 @@
 .wd-tuit-stats-link {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }

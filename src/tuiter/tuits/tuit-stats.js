@@ -16,26 +16,26 @@ const TuitStats = ({tuit}) => {
       <div>
         <div className="row">
           <div className="col-3">
-            <a href="#" className="wd-tuit-stats-link">
+            <a className="wd-tuit-stats-link">
               <i className="bi bi-chat ps-1 pe-1"></i>
               <span>{tuit.replies}</span>
             </a>
           </div>
           <div className="col-3">
-            <a href="#" className="wd-tuit-stats-link">
+            <a className="wd-tuit-stats-link">
               <i className="bi bi-repeat ps-1 pe-1"></i>
               <span>{tuit.retuits}</span>
             </a>
           </div>
           <div className="col-3">
-            <a href="#" onClick={() => likeTuitHandler(tuit)}
+            <a onClick={() => likeTuitHandler(tuit)}
                className="wd-tuit-stats-link">
               <i className={`${tuitLikesClass} ps-1 pe-1`}></i>
               <span>{tuit.likes}</span>
             </a>
           </div>
           <div className="col-3">
-            <a href="#" className="wd-tuit-stats-link">
+            <a className="wd-tuit-stats-link">
               <i className="bi bi-share ps-1 pe-1"></i>
             </a>
           </div>
