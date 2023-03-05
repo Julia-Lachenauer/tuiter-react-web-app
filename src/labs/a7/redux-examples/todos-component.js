@@ -39,7 +39,7 @@ const Todos = () => {
             <input
                 onChange={todoChangeHandler}
                 value={todo.do}
-                className="form-control"/>
+                className="form-control w-75"/>
           </li>
           {todos.map((todo, index) =>
               <li key={todo._id}
