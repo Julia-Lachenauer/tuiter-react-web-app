@@ -6,6 +6,10 @@
     color: red;
 }
 
+.wd-disliked-icon {
+    color: blue;
+}
+
 .wd-image-center {
     align-items: center;
 }
