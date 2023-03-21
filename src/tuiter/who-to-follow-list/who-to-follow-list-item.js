@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 const WhoToFollowListItem = (
     {
-      who = {userName: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png'}
+      who = {username: 'NASA', handle: 'NASA', avatarIcon: 'nasa.png'}
     }
 ) => {
   return (
@@ -15,7 +15,7 @@ const WhoToFollowListItem = (
           </div>
           <div className="col-8">
             <div className="fw-bold">
-              <span>{who.userName}</span>
+              <span>{who.username}</span>
               <i className="bi bi-check-circle-fill ps-1 pe-1"></i>
             </div>
             <div>@{who.handle}</div>

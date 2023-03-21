@@ -6,8 +6,8 @@ const PostSummaryItem = (post) => {
   }
 
   let usernameElem = "";
-  if ("userName" in post && post.userName !== "") {
-    usernameElem = `<span class="fw-bold">${post.userName}</span>`;
+  if ("username" in post && post.username !== "") {
+    usernameElem = `<span class="fw-bold">${post.username}</span>`;
   }
 
   let timeElem = "";
